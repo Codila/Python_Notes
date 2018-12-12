@@ -22,7 +22,7 @@ class Fraction(object):
         
     def inverse(self):
         return Fraction(self.denom,self.num)   #defining your own method
-        """returns a new fraction representing data type"""
+        """returns a new fraction representing data type of Fraction object"""
        
 #Now lets use the Fraction Object""""
 
