@@ -4,8 +4,6 @@
 
 class Fraction(object):
     """A number represented as a fraction"""
-
-
     def __init__(self,num,denom):
         assert type(num) == int and type(denom) == int
         self.num =num
