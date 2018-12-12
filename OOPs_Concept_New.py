@@ -30,7 +30,7 @@ a= Fraction(3,4)
 b= Fraction(3,4)        
 
 c= a+b  # c is a fraction object 
-print(float(c))
-print(Fraction.__float__(c))
+print(float(c)) # should return 1.5
+print(Fraction.__float__(c)) # should return 1.5 same as above
 
-print(float(a.inverse()))
+print(float(a.inverse())) # should return 1.3333...
